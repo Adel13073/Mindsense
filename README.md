@@ -33,3 +33,21 @@ Se preferir, pode usar o microfone para ditar o texto.
 Caso não tenha ligação à Internet ou a chave da API não esteja configurada, o MindSense entra em modo de demonstração e devolve respostas baseadas em palavras-chave.
 
 ## Estrutura do projeto
+mindsense/
+├── index.html 
+├── css/
+│ └── style.css 
+├── js/
+│ └── script.js 
+└── assets/
+└── images/ 
+
+## Demonstração
+
+O projeto está disponível em:  
+[https://adel13073.github.io/Mindsense](https://adel13073.github.io/Mindsense)
+
+
+## Créditos
+
+Projeto desenvolvido no âmbito da cadeira de Sistemas Inteligentes da Universidade Óscar Ribas.
