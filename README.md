@@ -4,7 +4,7 @@ Aplicação web que analisa sentimentos em textos usando o modelo LLaMA 3.3 da G
 
 ## O que faz
 
-O MindSense recebe um texto escrito pelo utilizador e devolve:
+O MindSense recebe um texto escrito pelo utilizador e devolve (no idioma que recebeu o texto):
 - O sentimento dominante (positivo, negativo, neutro, triste, ansioso, raiva, calmo)
 - Uma percentagem de confiança
 - Emoções secundárias detectadas
@@ -28,10 +28,17 @@ A aplicação detecta automaticamente se o texto está em português ou inglês 
 
 Se preferir, pode usar o microfone para ditar o texto.
 
-## Modo offline
+## Modo de demonstração
 
-Caso não tenha ligação à Internet ou a chave da API não esteja configurada, o MindSense entra em modo de demonstração e devolve respostas baseadas em palavras-chave.
+Por defeito, o MindSense funciona em **modo de demonstração** com respostas simuladas,suporte para dois idiomas(EN\PT) sem necessidade de chave API. Este modo é útil para testar a aplicação sem configuração adicional.
 
+### Para usar a API real (opcional)
+
+1. Obtenha uma chave gratuita em [console.groq.com](https://console.groq.com).
+2. Crie um ficheiro `js/config.js` com o conteúdo:
+   ```javascript
+   const GROQ_KEY = 'gsk_aqui_a_sua_chave';
+   
 ## Estrutura do projeto
 mindsense/
 ├── index.html 
@@ -49,5 +56,8 @@ O projeto está disponível em:
 
 
 ## Créditos
+Projeto desenvolvido por Adelmária George no âmbito da cadeira de Sistemas Inteligentes da Universidade Óscar Ribas.
+
+
 
 Projeto desenvolvido no âmbito da cadeira de Sistemas Inteligentes da Universidade Óscar Ribas.
