@@ -4,7 +4,7 @@ Aplicação web que analisa sentimentos em textos usando o modelo LLaMA 3.3 da G
 
 ## O que faz
 
-O MindSense recebe um texto escrito pelo utilizador e devolve (no idioma que recebeu o texto):
+O MindSense recebe um texto escrito pelo utilizador e devolve:
 - O sentimento dominante (positivo, negativo, neutro, triste, ansioso, raiva, calmo)
 - Uma percentagem de confiança
 - Emoções secundárias detectadas
@@ -45,9 +45,7 @@ mindsense/
 ├── css/
 │ └── style.css 
 ├── js/
-│ └── script.js 
-└── assets/
-└── images/ 
+ └── script.js 
 
 ## Demonstração
 
