@@ -1,0 +1,12 @@
+# Configurações locais (chaves API, etc.)
+js/config.js
+
+# Dependências (se houver)
+node_modules/
+
+# Ficheiros do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
