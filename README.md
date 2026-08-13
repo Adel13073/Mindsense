@@ -47,15 +47,10 @@ mindsense/
 ├── js/
  └── script.js 
 
-## Demonstração
 
-O projeto está disponível em:  
-[https://adel13073.github.io/Mindsense](https://adel13073.github.io/Mindsense)
 
 
 ## Créditos
 Projeto desenvolvido por Adelmária George no âmbito da cadeira de Sistemas Inteligentes da Universidade Óscar Ribas.
 
 
-
-Projeto desenvolvido no âmbito da cadeira de Sistemas Inteligentes da Universidade Óscar Ribas.
